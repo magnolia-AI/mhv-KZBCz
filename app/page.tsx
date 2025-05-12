@@ -20,39 +20,45 @@ export default function Home() {
         This is a template hero section - replace with your own content
         Feel free to change layout, styling, and content completely
       */}
-      <section className="container mx-auto px-4 pt-24 pb-20">
-        <div className="max-w-[800px] mx-auto text-center">
+      <section className="container mx-auto px-4 pt-28 pb-24">
+        <div 
+          className="max-w-[800px] mx-auto text-center rounded-xl p-10" 
+          style={{
+            backgroundColor: 'rgba(0, 102, 255, 0.08)',
+            boxShadow: '0 8px 30px rgba(0, 0, 0, 0.06)',
+            border: '1px solid rgba(0, 102, 255, 0.2)',
+            width: '800px',
+            margin: '0 auto',
+          }}
+        >
           <h1 
             style={{
               width: '800px',
               height: '48px',
               padding: '0px',
-              paddingTop: '0px',
-              paddingRight: '0px',
-              paddingBottom: '0px',
-              paddingLeft: '0px',
               margin: '0px',
-              marginTop: '0px',
-              marginRight: '0px',
-              marginBottom: '0px',
-              marginLeft: '0px',
               color: '#fd2626',
-              backgroundColor: 'rgba(0, 102, 255, 0.1)',
               fontSize: '48px',
               fontWeight: 700,
               display: 'block',
               position: 'static',
-              textAlign: 'center'
+              textAlign: 'center',
+              fontFamily: 'system-ui, -apple-system, sans-serif',
+              letterSpacing: '-0.02em',
+              textShadow: '0 1px 2px rgba(0,0,0,0.1)',
+              backgroundColor: 'transparent'
             }}
           >
             Template Starter
           </h1>
-          <p className="mt-6 text-xl text-muted-foreground max-w-[600px] mx-auto">
+          <p className="mt-8 text-xl text-muted-foreground max-w-[600px] mx-auto leading-relaxed">
             This is a customizable template. Replace all content with your own using the chat interface.
           </p>
-          <div className="mt-12 flex gap-4 justify-center">
-            <Button size="lg" className="px-8">Sample Button</Button>
-            <Button size="lg" variant="outline" className="px-8" onClick={showToast}>
+          <div className="mt-14 flex gap-6 justify-center">
+            <Button size="lg" className="px-8 py-6 text-base rounded-lg shadow-lg transition-transform hover:translate-y-[-2px]">
+              Sample Button
+            </Button>
+            <Button size="lg" variant="outline" className="px-8 py-6 text-base rounded-lg border-2 transition-transform hover:translate-y-[-2px]" onClick={showToast}>
               Show Toast
             </Button>
           </div>
@@ -113,3 +119,4 @@ export default function Home() {
     </div>
   )
 }
+
