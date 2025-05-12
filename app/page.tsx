@@ -36,17 +36,22 @@ export default function Home() {
               width: '800px',
               height: '48px',
               padding: '0px',
+              paddingTop: '0px',
+              paddingRight: '0px',
+              paddingBottom: '0px',
+              paddingLeft: '0px',
               margin: '0px',
-              color: '#fd2626',
-              fontSize: '48px',
+              marginTop: '0px',
+              marginRight: '0px',
+              marginBottom: '0px',
+              marginLeft: '0px',
+              color: 'rgb(253, 38, 38)',
+              backgroundColor: 'rgba(0, 102, 255, 0.1)',
+              fontSize: '42px',
               fontWeight: 700,
               display: 'block',
               position: 'static',
-              textAlign: 'center',
-              fontFamily: 'system-ui, -apple-system, sans-serif',
-              letterSpacing: '-0.02em',
-              textShadow: '0 1px 2px rgba(0,0,0,0.1)',
-              backgroundColor: 'transparent'
+              textAlign: 'center'
             }}
           >
             Template Starter
@@ -119,4 +124,5 @@ export default function Home() {
     </div>
   )
 }
+
 
