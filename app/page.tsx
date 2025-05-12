@@ -22,7 +22,29 @@ export default function Home() {
       */}
       <section className="container mx-auto px-4 pt-24 pb-20">
         <div className="max-w-[800px] mx-auto text-center">
-          <h1 className="text-5xl font-bold tracking-tight lg:text-6xl">
+          <h1 
+            style={{
+              width: '800px',
+              height: '48px',
+              padding: '0px',
+              paddingTop: '0px',
+              paddingRight: '0px',
+              paddingBottom: '0px',
+              paddingLeft: '0px',
+              margin: '0px',
+              marginTop: '0px',
+              marginRight: '0px',
+              marginBottom: '0px',
+              marginLeft: '0px',
+              color: '#fd2626',
+              backgroundColor: 'rgba(0, 102, 255, 0.1)',
+              fontSize: '48px',
+              fontWeight: 700,
+              display: 'block',
+              position: 'static',
+              textAlign: 'center'
+            }}
+          >
             Template Starter
           </h1>
           <p className="mt-6 text-xl text-muted-foreground max-w-[600px] mx-auto">
